@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  padding: 60px 0 0 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,26 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.blacklink {
+  position: relative;
+  left: 15px;
+  vertical-align: middle;
+  color: black;
+}
+
+.wbdv-add-course-button-white {
+  color: white;
+}
+
+
+.wbdv-add-course-button-blue {
+  color: #3f44ff;
+}
+
+.non-moving-button {
+  position: fixed;
+  right: 10px;
+  bottom: 10px
 }
